@@ -17,9 +17,14 @@
 - Dynamic memory allocation & deallocation.
 - Namespaces.
 - One and Two-Dimensional Arrays.
-- Error-handling and assertions
+- Error-handling and assertion
+- Command-Line Arguments
 
 ### TO:DO
 - Write code that prevents the player to move to wall or outside the GameWorld.
 - Write Code that when the player is in the same position of the sentry, you lose the game.
+
+### How to run the project.
+- Open command line interface and type "run.bat"
+- "run.bat" is a batch file which is responsible for executing certain commands that written in the file automatically.
   
