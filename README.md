@@ -26,5 +26,5 @@
 
 ### How to run the project.
 - Open command line interface and type "run.bat"
-- "run.bat" is a batch file which is responsible for executing certain commands that written in the file automatically.
+- "run.bat" is a batch file which has certain commands that written in the file.
   
