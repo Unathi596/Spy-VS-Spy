@@ -253,17 +253,19 @@ namespace SkySpace
 		else if(intRow >= recGameWorld.intRows - 1)
 		{
 			intRow = recGameWorld.intRows - 1;
-			intCol
+			intCol = recGameWorld.intPCol;
 		}
 		
 		// For Col
 		if(intCol < 0)
 		{
 			intCol = 0;
+   intRow = recGameWorld.intPRow;
 		}
 		else if(intCol >= recGameWorld.intCols - 1)
 		{
 			intCol = recGameWorld.intCols - 1;
+   intRow = recGameWorld.intPRow;
 		}
 	}
 	
