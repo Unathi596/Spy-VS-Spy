@@ -3,7 +3,7 @@
 ## This is a very small turned-based game in C++. 
 
 ### Description
-This is a turned-based game where we have a player(Spy) which has to avoid being spotted/caught by a sentry(security). The player starts at the right-hand side of the GameWorld. The player wins the game if the player manages to reach the left side of the GameWorld avoiding all the sentries. We have two types of sentries: Sentries that move up and sentries that move down. All sentries whether it only moves up or down are placed on even-numbered coloumns. The GameWorld also contains wall which makes it difficult for the player to reach the left side pf the GameWorld. The walls are placed on odd-numbers coloumns going down and each coloumns that has a wall has at least a space where the player can pass through. 
+This is a turned-based game where we have a player(Spy) which has to avoid being spotted/caught by a sentry(security). The player starts at the right-hand side of the GameWorld. The player wins the game if the player manages to reach the left side of the GameWorld avoiding all the sentries. We have two types of sentries: Sentries that move up and sentries that move down. All sentries whether it only moves up or down are placed on even-numbered coloumns. The GameWorld also contains wall which makes it difficult for the player to reach the left side pf the GameWorld. The walls are placed on odd-numbered coloumns going down and each coloumns that has a wall has at least a space where the player can pass through. 
 
 ### Features
 - The size of the gameworld (rows and coloumns) are passed via Command-Line Arguments.
