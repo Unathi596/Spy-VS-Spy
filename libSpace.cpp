@@ -250,7 +250,7 @@ namespace SkySpace
 			intRow = 0;
 			intCol = recGameWorld.intPCol;
 		}
-		else if(intRow >= recGameWorld.intRows - 1)
+		else if(intRow > recGameWorld.intRows - 1)
 		{
 			intRow = recGameWorld.intRows - 1;
 			intCol = recGameWorld.intPCol;
@@ -262,7 +262,7 @@ namespace SkySpace
 			intCol = 0;
    intRow = recGameWorld.intPRow;
 		}
-		else if(intCol >= recGameWorld.intCols - 1)
+		else if(intCol > recGameWorld.intCols - 1)
 		{
 			intCol = recGameWorld.intCols - 1;
    intRow = recGameWorld.intPRow;
