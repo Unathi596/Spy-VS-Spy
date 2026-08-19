@@ -1,6 +1,9 @@
 # Spy-VS-Spy
 
-## This is a very small turned based game. You win when the player reaches the left side of the Gameworld, this means that the player starts on the right side of the Gameworld.
+## This is a very small turned based game in C++. 
+
+### Description
+This is a turned based where we have a player(Spy) which has to avoid being spotted/caught by a sentry(security).
 
 ### Features
 - The game contains a player which moves around the Gameworld.
